@@ -1,0 +1,122 @@
+
+
+:root {
+  --green-primary: #39CDCC;
+  --darkblue-primary: #545F7D;
+  --blue-primary: #213F7D;
+  --gray-primary: #FBFBFB;
+  --white-primary: #FFFFFF
+}
+
+.side-bar {
+  width: 260px;
+  height: 1835px;
+  background: var(--white-primary);
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.04);
+
+  .menu {
+    list-style: none;
+
+    .Dashboard {
+      li {
+        margin: 40px 0;
+      }
+
+      .header {
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        padding: 10px 10px;
+      }
+
+      .header img {
+        width: 16px;
+        height: 16px;
+        margin: 0 7px 0 5px;
+
+        span {
+          color: var(--blue-primary);
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .header:hover {
+      background: var(--green-primary);
+    }
+  }
+
+
+  .customers,
+  .businesses,
+  .settings {
+
+    .header {
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      height: 40px;
+      padding: 10px 10px;
+    }
+
+    li {
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: var(--darknlue-primary);
+      font-size: 12px;
+      font-weight: 500;
+      margin: 0 0 20px 7px;
+    }
+
+    .header img {
+      width: 16px;
+      height: 16px;
+      margin: 0 7px 0 5px;
+
+      span {
+        color: var(--blue-primary);
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .active {
+      background: var(--green-primary);
+    }
+    .header:hover {
+      color: var(--blue-primary);
+      background: var(--green-primary);
+    }
+  }
+
+  .line {
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    background: var(--green-primary);
+    top: 0;
+    margin-top: 336px;
+    transition: all 0.5s ease;
+  }
+
+  .line-divider {
+    width: 260px;
+    height: 1px;
+    opacity: 0.1;
+    background: var(--blue-primary);
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: var(--blue-primary);
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+}

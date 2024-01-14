@@ -1,0 +1,28 @@
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.pagination .page-unm:hover {
+  background: var(--green-primary);
+  color: #fff;
+}
+
+.next-btn:hover {
+  background: var(--green-primary);
+}
+
+.pagination .acvtive {
+  background: var(--green-primary);
+}

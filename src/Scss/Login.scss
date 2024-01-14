@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  // height: 900px;
+  
+}
+
+:root {
+  --green-primary: #39CDCC;
+  --blue-primary: #213F7D;
+  --white-primary: #FFFFFF;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 173px;
+  height: 36px;
+  margin: 40px 0 0 40px;
+}
+
+.sign-in-icon {
+  width: 600px;
+  height: 337px;
+  margin: 70px 50px 0 0;
+}
+
+.form_container {
+  flex-shrink: 0;
+  width: 700px;
+  height: 900px;
+  background-color: var(--white-primary);
+  box-shadow: 0px 15px 90px 0px rgba(0, 0, 0, 0.03);
+
+  h1 {
+      color: var(--blue-primary);
+      font-size: 40px;
+      font-weight: 700;
+      margin-left: 80px;
+      margin-top: 80px;
+      letter-spacing: -1.6px;
+    }
+
+  p {
+    color: var(--blue-primary);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 80px;
+  }
+
+  input {
+    width: 400px;
+    height: 50px;
+    padding: 0 0 0 16px;
+    border-radius: 5px;
+    margin: 24px 0 0 80px;
+    background: var(--white-primary);
+    border: 2px solid rgba(84, 95, 125, 0.15);
+  }
+
+  .forgot-password {
+    color: var(--green-primary);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 24px 0 0 80px;
+    text-transform: uppercase;
+  }
+
+  button {
+    width: 400px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    margin: 24px 0 0 80px;
+    cursor: pointer;
+    color: var(--white-primary);
+    background: var(--green-primary);
+  }
+}

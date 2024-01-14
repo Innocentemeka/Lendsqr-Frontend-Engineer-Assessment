@@ -1,0 +1,122 @@
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-item {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 130px;
+  padding: 22px;
+  border-radius: 4px;
+  margin-left: -100px;
+  border: 1px solid rgba(84, 95, 125, 0.04);
+  background: #FFF;
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+
+  .item {
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  img {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+  }
+
+  span {
+    color: #545F7D;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.organization {
+  img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    }
+
+  .form-container {
+      position: absolute;
+      width: 270px;
+      height: 600px;
+      border-radius: 4px;
+      padding: 20px;
+      margin: 14px 0 0 -120px;
+      border: 1px solid rgba(84, 95, 125, 0.14);
+      background: #FFF;
+      box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+
+  label {
+      color: #545F7D;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    .input-box {
+      width: 230px;
+      height: 40px;
+      border-radius: 8px;
+      padding: 20px;
+      border: 1px solid #213F7D;
+      opacity: 0.2;
+      margin-bottom: 15px;
+      background: #FFF;
+    }
+}
+
+  p {
+    color: #545F7D;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  select {
+    width: 230px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #213F7D;
+    opacity: 0.2;
+    padding-left: 20px;
+    background: #FFF;
+    margin-bottom: 20px;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+
+  .reset-btn {
+      color: #545F7D;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      width: 98px;
+      height: 40px;
+      border-radius: 8px;
+      border: 1px solid #545F7D;
+      background: transparent;
+    }
+
+  .filter-btn {
+      width: 98px;
+      height: 40px;
+      color: #FFF;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px solid #39CDCC;
+      background: #39CDCC;
+    }
+  }
+}

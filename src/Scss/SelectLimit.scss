@@ -1,0 +1,19 @@
+
+
+.select-limit {
+  display: flex;
+  justify-content: center;
+  p {
+    color: #545F7D;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  select {
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    background: rgba(33, 63, 125, 0.10);
+    margin: 0 10px 0px 10px;
+  }
+}
