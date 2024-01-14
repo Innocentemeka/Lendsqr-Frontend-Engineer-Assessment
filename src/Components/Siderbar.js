@@ -31,14 +31,14 @@ export const Siderbar = () => {
         <div className='Dashboard'>
           <li>
             <Link className='header'>
-              <img src={BriefcaseIcon} alt="#" />
+              <img src={BriefcaseIcon} alt="siderbar-icon" />
               <span>Switch Organization</span>
-              <img src={ArrowDown} alt="#" />
+              <img src={ArrowDown} alt="siderbar-icon" />
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={HomeIcon} alt="#" />
+              <img src={HomeIcon} alt="siderbar-icon" />
               <span>Dashboard</span>
             </Link>
           </li>
@@ -49,49 +49,49 @@ export const Siderbar = () => {
           <h1>CUSTOMERS</h1>
           <li>
             <Link className='header active'>
-              <img src={UserFriendsIcon} alt="#" />
+              <img src={UserFriendsIcon} alt="siderbar-icon" />
               <span>Users</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={UserIcon} alt="#" />
+              <img src={UserIcon} alt="siderbar-icon" />
               <span>Guarantors</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={SackIcon} alt="#" />
+              <img src={SackIcon} alt="siderbar-icon" />
               <span>Loans</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={HandshakeIcon} alt="#" />
+              <img src={HandshakeIcon} alt="siderbar-icon" />
               <span>Decision Models</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={PiggyBankIcon} alt="#" />
+              <img src={PiggyBankIcon} alt="siderbar-icon" />
               <span>Savings</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={GroupIcon} alt="#" />
+              <img src={GroupIcon} alt="siderbar-icon" />
               <span>Loan Requests</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={UserCheckIcon} alt="#" />
+              <img src={UserCheckIcon} alt="siderbar-icon" />
               <span>Whitelist</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={UserTimeIcon} alt="#" />
+              <img src={UserTimeIcon} alt="siderbar-icon" />
               <span>Karma</span>
             </Link>
           </li>
@@ -101,55 +101,55 @@ export const Siderbar = () => {
           <h1>BUSINESSES</h1>
           <li>
             <Link className='header'>
-              <img src={BriefcaseIcon} alt="#" />
+              <img src={BriefcaseIcon} alt="siderbar-icon" />
               <span>Organization</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={GroupIcon} alt="#" />
+              <img src={GroupIcon} alt="siderbar-icon" />
               <span>Loan Products</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={BankIcon} alt="#" />
+              <img src={BankIcon} alt="siderbar-icon" />
               <span>Savings Products</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={CoinsIcon} alt="#" />
+              <img src={CoinsIcon} alt="siderbar-icon" />
               <span>Fees and Charges</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={TransactionIcon} alt="#" />
+              <img src={TransactionIcon} alt="siderbar-icon" />
               <span>Transactions</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={GalaxyIcon} alt="#" />
+              <img src={GalaxyIcon} alt="siderbar-icon" />
               <span>Services</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={UserCogIcon} alt="#" />
+              <img src={UserCogIcon} alt="siderbar-icon" />
               <span>Service Account</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={ScrollIcon} alt="#" />
+              <img src={ScrollIcon} alt="siderbar-icon" />
               <span>Settlements</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={ChartBarIcon} alt="#" />
+              <img src={ChartBarIcon} alt="siderbar-icon" />
               <span>Reports</span>
             </Link>
           </li>
@@ -160,19 +160,19 @@ export const Siderbar = () => {
           <h1>SETTINGS</h1>
           <li>
             <Link className='header'>
-              <img src={SlidersIcon} alt="#" />
+              <img src={SlidersIcon} alt="siderbar-icon" />
               <span>Preferences</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={BadgePercentIcon} alt="#" />
+              <img src={BadgePercentIcon} alt="siderbar-icon" />
               <span>Fees and Pricing</span>
             </Link>
           </li>
           <li>
             <Link className='header'>
-              <img src={ClipboardIcon} alt="#" />
+              <img src={ClipboardIcon} alt="siderbar-icon" />
               <span>Audit Logs</span>
             </Link>
           </li>
@@ -181,13 +181,13 @@ export const Siderbar = () => {
 
           <li>
             <Link className='header' to='/login'>
-              <img src={SignOutIcon} alt="#" />
+              <img src={SignOutIcon} alt="siderbar-icon" />
               <span>Logout</span>
             </Link>
           </li>
         </div>
 
-        <div class="line"></div>
+        <div className="line"></div>
       </ul>
       <p>v1.2.0</p>
     </div>

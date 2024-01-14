@@ -9,23 +9,23 @@ const Navbar = () => {
   return (
     <div className='nav-bar'>
       <div>
-        <img src={Logo} alt='#' className='logo' />
+        <img src={Logo} alt='navbar-icon' className='logo' />
       </div>
       <div className='search-box'>
         <input type="text" placeholder='Search for anything' />
         <label className='search-icon'>
-          <img src={SearchIcon} alt="#" />
+          <img src={SearchIcon} alt="navbar-icon" />
         </label>
       </div>
       <div className='info-box'>
         <Link className='docs'>Docs</Link>
-        <img src={NotifyIcon} alt="#" className='notify-icon' />
+        <img src={NotifyIcon} alt="navbar-icon" className='notify-icon' />
         <div>
-          <img src={ProfilePhoto} alt="#" className='profile-photo' />
+          <img src={ProfilePhoto} alt="navbar-icon" className='profile-photo' />
         </div>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <h1>Adedeji</h1>
-          <img src={DropDownIcon} alt="#" className='arrow-down-icon' />
+          <img src={DropDownIcon} alt="navbar-icon" className='arrow-down-icon' />
         </div>
       </div>
     </div>

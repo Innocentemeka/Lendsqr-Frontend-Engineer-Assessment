@@ -17,7 +17,7 @@ const Dashboard = () => {
             <circle opacity="0.1" cx="20" cy="20" r="20" fill="#DF18FF" />
           </svg>
           <div className='image'>
-            <img src={NpUsersIcon} alt="#" />
+            <img src={NpUsersIcon} alt="dashboard-icon" />
           </div>
           <h3>Users</h3>
           <p>2,453</p>
@@ -28,7 +28,7 @@ const Dashboard = () => {
             <circle opacity="0.1" cx="20" cy="20" r="20" fill="#5718FF" />
           </svg>
           <div className='image'>
-            <img src={NpUsersGroupIcon} alt="#" />
+            <img src={NpUsersGroupIcon} alt="dashboard-icon" />
           </div>
           <h3>Active Users</h3>
           <p>2,453</p>
@@ -39,7 +39,7 @@ const Dashboard = () => {
             <circle opacity="0.1" cx="20" cy="20" r="20" fill="#F55F44" />
           </svg>
           <div className='image'>
-            <img src={NpLoanIcon} alt="#" />
+            <img src={NpLoanIcon} alt="dashboard-icon" />
           </div>
           <h3>Users with Loans</h3>
           <p>12,453</p>
@@ -50,7 +50,7 @@ const Dashboard = () => {
             <circle opacity="0.1" cx="20" cy="20" r="20" fill="#FF3366" />
           </svg>
           <div className='image'>
-            <img src={NpCoinIcon} alt="#" />
+            <img src={NpCoinIcon} alt="dashboard-icon" />
           </div>
           <h3>Users with Savings</h3>
           <p>102,453</p>

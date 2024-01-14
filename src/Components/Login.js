@@ -3,6 +3,7 @@ import Logo from '../Images/logo.png';
 import Icon from '../Images/sign-in-icon.png';
 
 
+
 const Login = () => {
 
   const navigate = useNavigate();
@@ -15,10 +16,10 @@ const Login = () => {
     <div className='container'>
       <div>
         <div>
-          <img src={Logo} alt='#' className='logo' />
+          <img src={Logo} alt='logo-icon' className='logo' />
         </div>
         <div>
-          <img src={Icon} alt='#' className='sign-in-icon' />
+          <img src={Icon} alt='login-page-icon' className='sign-in-icon' />
         </div>
       </div>
       <div className='form_container'>

@@ -29,7 +29,7 @@ const userDetails = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
               <circle opacity="0.16" cx="50" cy="50" r="50" fill="#213F7D" />
             </svg>
-            <img src={UserIcon} alt="details-icon" />
+            <img src={UserIcon} alt="user-details-icon" />
             <span>
               <h2>Grace Effiom</h2>
               <p>LSQFf587g90</p>
@@ -40,9 +40,9 @@ const userDetails = () => {
 
           <div className='user-tier'>
             <p>User’s Tier</p>
-            <img src={StarIcon1} alt="details-icon" />
-            <img src={StarIcon} alt="details-icon" />
-            <img src={StarIcon} alt="details-icon" />
+            <img src={StarIcon1} alt="user-details-icon" />
+            <img src={StarIcon} alt="user-details-icon" />
+            <img src={StarIcon} alt="user-details-icon" />
           </div>
 
           <div className='line'></div>
