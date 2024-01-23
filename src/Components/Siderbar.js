@@ -180,7 +180,7 @@ export const Siderbar = () => {
           <div className='line-divider'></div>
 
           <li>
-            <Link className='header' to='/login'>
+            <Link className='header' to='/'>
               <img src={SignOutIcon} alt="siderbar-icon" />
               <span>Logout</span>
             </Link>

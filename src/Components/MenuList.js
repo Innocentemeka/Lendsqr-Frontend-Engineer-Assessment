@@ -71,7 +71,7 @@ export const Organization = () => {
         ref={imgRef}
       />
       {open && (
-        <div ref={menuRef} className='form-container'>
+        <div ref={menuRef} className='form-wrapper'>
           <div>
             <p>Organization</p>
             <select>

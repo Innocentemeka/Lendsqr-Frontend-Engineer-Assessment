@@ -13,7 +13,7 @@ const Login = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='login-form'>
       <div>
         <div>
           <img src={Logo} alt='logo-icon' className='logo' />
